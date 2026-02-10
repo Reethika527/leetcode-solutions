@@ -1,0 +1,4 @@
+var isPalindrome = function(s) {
+    let rev = s.split("").reverse().join("");
+    return s === rev;
+};
